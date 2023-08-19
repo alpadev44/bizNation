@@ -58,9 +58,6 @@ module.exports = (sequelize, DataTypes) => {
         allowNull: true,
         type: DataTypes.STRING,
       },
-    },
-    {
-      paranoid: true,
     }
   );
 
@@ -71,3 +68,4 @@ module.exports = (sequelize, DataTypes) => {
   return Personaje;
 
 };
+

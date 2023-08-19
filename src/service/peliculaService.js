@@ -1,3 +1,4 @@
+const { where } = require("sequelize");
 const { Op } = require('sequelize');
 const Pelicula = require('../models/index').Pelicula;
 const Genero = require('../models/index').Genero;
