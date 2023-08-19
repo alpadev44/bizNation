@@ -92,3 +92,5 @@ Estos datos son datos locales de conexion a la base de datos
 "username": "root",
 "password": "123456789",
 "database": "database_development",
+
+para correr contenedores: docker-compose up --build
