@@ -94,3 +94,5 @@ Estos datos son datos locales de conexion a la base de datos
 "database": "database_development",
 
 para correr contenedores: docker-compose up --build
+
+instalar extension de docker pata visual studio code
