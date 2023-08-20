@@ -10,11 +10,9 @@ COPY package*.json ./
 # Install app dependencies
 RUN npm install
 
+# Copy the wait-for-it script and give it execute permissions
+COPY wait-for-it.sh ./
+RUN chmod +x ./wait-for-it.sh
+
 # Copy the rest of the application to the working directory
 COPY . .
-
-# Expose the application's port
-#EXPOSE 3009
-
-# Start the application
-CMD ["npm", "start"]
