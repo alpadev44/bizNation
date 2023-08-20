@@ -93,6 +93,18 @@ Estos datos son datos locales de conexion a la base de datos
 "password": "123456789",
 "database": "database_development",
 
-para correr contenedores: docker-compose up --build
-
 instalar extension de docker pata visual studio code
+
+Descarga el archivo:
+curl -O https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh
+
+Dale permisos de ejecucion
+chmod +x wait-for-it.sh
+
+construir imagen docker
+docker-compose build
+
+correr docker
+docker-compose up
+
+PD: debe tener docker instalado.
